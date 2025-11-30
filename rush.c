@@ -36,12 +36,16 @@ void	rush(char **clues)
 {
 	char	**puzzle_board;
 
+// Sarquma a board
 	puzzle_board = create_board();
 
+// Zacepkan a talis
 	set_clues(puzzle_board, clues);
 
+// Lucum a xndir@
 	rush_recursive(puzzle_board, 1, 1);
 
+// Ete line 0 column 0 char 0 = error
 	if (puzzle_board[0][0] == '0')
 		print_error();
 }

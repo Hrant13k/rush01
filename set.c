@@ -3,7 +3,11 @@ void set_clues(char **puzzle_board, char **clues)
 {
 	int i;
 	int j;
+
+// Ancnum a cherez puzzle noard
 	i = 1;
+
+// Ancnum a cherez clue
 	j = 0;
 		while (i <= 4)
 {

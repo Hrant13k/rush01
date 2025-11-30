@@ -104,3 +104,5 @@ while (i < row)
     }
 return (0);
 }
+
+// Es chgitem vonc a ashxatum, bayc ashxatum a :D

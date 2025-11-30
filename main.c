@@ -9,6 +9,7 @@ int	main(int argc, char **argv)
 	if (!is_correct_params(argv) || argc != 2)
 		print_error();
 
+// Stugum a ete sax okay a, kanchum a rush funkcian
 	else
 		rush(clues);
 	return (0);

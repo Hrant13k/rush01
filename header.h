@@ -1,6 +1,8 @@
 #ifndef HEADER_H
 # define HEADER_H
 
+// Proekti sax funkcianerov menu
+
 // Includes all libraries that will be used
 #include <stdio.h>
 #include <stdlib.h>

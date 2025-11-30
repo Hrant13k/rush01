@@ -1,5 +1,7 @@
 #include "header.h"
 
+// Tpum a patasxan kam Error
+
 void	ft_putchar(char c)
 {
     write(1, &c, 1);
